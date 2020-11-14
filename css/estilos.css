@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Blinker", sans-serif;
+  position: relative;
+  margin: 0;
+}
+
+/* Navbar */
+nav,
+ul,
+li,
+a {
+  color: #ec4c36 !important;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/*  Fin de Navbar */
+
+/* .flex {
+  display: flex;
+} */
+
+/* Cover */
+#baner {
+  height: 100vh;
+  width: 100%;
+  background-image: url(../img/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+/* form */
+
+input {
+  background: none;
+  color: #c6c6c6;
+  font-size: 18px;
+  padding: 3px;
+  border: none;
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+button {
+  background-color: #ec4c36;
+  font-family: "Blinker", sans-serif;
+  border: none;
+  display: block;
+  width: 60%;
+  margin: 10px;
+  color: #ffffff;
+  height: 35px;
+  border-radius: 3px;
+}
+/* Fin Form */
+
+/* Servicios */
+
+section,
+span {
+  color: #ec4c36;
+}
+
+/* fin servicios */
+
+/* footer */
+
+footer {
+  font-weight: 300;
+  height: 219px;
+  background-color: #1c1414;
+  color: #ffffff;
+  padding: 20px;
+}
+
+footer,
+ul {
+  list-style: none;
+
+  padding: 10px;
+}
+
+/* fin footer */
