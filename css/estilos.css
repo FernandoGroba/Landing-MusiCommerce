@@ -98,3 +98,29 @@ ul {
 }
 
 /* fin footer */
+
+/* Mediaquery */
+
+@media (max-width: 700px) {
+  footer {
+    font-weight: 300;
+    height: auto;
+    background-color: #1c1414;
+    color: #ffffff;
+    padding: 20px;
+  }
+
+  .ayuda {
+    text-align: center;
+  }
+
+  nav,
+  button,
+  .navbar-toggler {
+  }
+
+  .btn-submit {
+    margin: 0;
+    height: 25px;
+  }
+}
