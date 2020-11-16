@@ -92,6 +92,11 @@ footer {
   padding: 20px;
 }
 
+.ayuda,
+a {
+  font-weight: 300;
+}
+
 footer,
 ul {
   list-style: none;
