@@ -8,6 +8,10 @@ body {
   font-family: "Blinker", sans-serif;
 }
 
+.container-fluid {
+  padding: 0;
+}
+
 /* Navbar */
 nav,
 ul,
@@ -22,6 +26,10 @@ p {
   font-weight: 300;
   font-size: 20px;
   letter-spacing: 1px;
+}
+
+.row {
+  margin: 0;
 }
 
 /*  Fin de Navbar */
@@ -57,19 +65,15 @@ input:focus {
   outline: none;
 }
 .btn-submit {
-  background-color: #ec4c36;
-  font-family: "Blinker", sans-serif;
-  border: none;
-  display: block;
   width: 60%;
-  margin: 10px;
-  color: #ffffff;
-  height: 35px;
-  border-radius: 3px;
 }
 /* Fin Form */
 
 /* Servicios */
+
+.servicios {
+  margin: 210px 0;
+}
 
 section,
 span {
@@ -123,6 +127,5 @@ ul {
 
   .btn-submit {
     margin: 0;
-    height: 25px;
   }
 }
